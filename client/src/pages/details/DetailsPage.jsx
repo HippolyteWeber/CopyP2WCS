@@ -37,7 +37,7 @@ export default function DetailsPage() {
             onClick={handleBack}
             className={styles.BackButton}
           >
-            🔙
+            ⇦
           </button>
           <p className={styles.explanation}>
             {selectedObject.collection.items[0].data[0].description}
